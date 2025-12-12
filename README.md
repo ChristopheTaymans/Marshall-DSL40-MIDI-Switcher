@@ -13,6 +13,8 @@ the switching command is provided by 4 momentary footswitches.
 
 ![switcher](https://github.com/user-attachments/assets/cbfd0721-648a-4c7e-84bd-f8c79d852f18)
 
+***Short demo video at https://youtu.be/Z-kX9PDRV-0***
+
 ## Syncrhonisation function
 
 The "issue" with DSL40 is that there is no MIDI messages sent back by the amp. to the switcher to give the current status of all presets.
