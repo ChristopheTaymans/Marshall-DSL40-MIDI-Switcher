@@ -3,7 +3,7 @@
 ## Introduction
 This repository propose a DYI switcher for the Marshall DSL40 tube Amplificator. The switcher is capable to select channel 1 / 2 selection with switching between modes ( Clean/Crunch / OD1 /OD 2 ). It can select also Master 1 or 2 and the FX loop activation/deactivation.
 
-The core of the circuit is an Arduino Every. 
+The core of the circuit is an **Arduino Every**. 
 The switcher is linked with the DSL40 through a MIDI cable ( DIN5 )  and is powered up with an external 9V source.
 the switching command is provided by 4 momentary footswitches. 
 - Footswitch 1 is for clean/crunch switching ( and implicitely for channel 1 activation): Two leds indicate the clean/crunch status
@@ -24,4 +24,12 @@ This switcher program have an integrated syncrhonisation function. The switcher 
 if the amp presets has been modified manually in the mean time, a synchronisation of the amps can be triggered by a long hold ( > 3 sec. ) on the clean/crunch footswitch.
 
 In a first version of the program, the synchronisation was triggered each time the switcher was turned on. Finally, the synchro is only triggered by demand.
+
+## Hardware 
+
+In folder Eagle, you'll find schematic and board to build the circuit board. If you have a CNC machine, you'll find too the G code files to engrave the circuit and the case.
+
+![circuit 1](https://github.com/user-attachments/assets/0fa2b67c-2956-4702-ac5b-690facca2e66)
+
+![circuit 2](https://github.com/user-attachments/assets/ca58f346-0f38-45d3-85b7-abe8205e0c27)
 
