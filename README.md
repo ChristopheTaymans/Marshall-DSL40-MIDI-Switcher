@@ -15,7 +15,7 @@ the switching command is provided by 4 momentary footswitches.
 
 ***Short demo video at https://youtu.be/Z-kX9PDRV-0***
 
-## Syncrhonisation function
+## Synchronisation function
 
 The "issue" with DSL40 is that there is no MIDI messages sent back by the amp. to the switcher to give the current status of all presets.
 Each modes ( clean/crunch/OD1/OD2) have their own presets regarding FX loop and Master. Combination of presets might become a bit complex and lead to a de-synchronisation.
@@ -29,7 +29,8 @@ In a first version of the program, the synchronisation was triggered each time t
 
 ## Hardware 
 
-In folder Eagle, you'll find schematic and board to build the circuit board. If you have a CNC machine, you'll find too the G code files to engrave the circuit and the case.
+In the folder Eagle, you'll find schematic and board implementation to build the circuit board. 
+If you have a CNC machine, you'll find the G code files to engrave the circuit and the case.
 
 ![circuit 1](https://github.com/user-attachments/assets/0fa2b67c-2956-4702-ac5b-690facca2e66)
 
